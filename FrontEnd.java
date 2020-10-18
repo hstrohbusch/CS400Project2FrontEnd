@@ -56,13 +56,12 @@ public class FrontEnd {
 
 				System.out.println("---------------------------------------------------------------------------------------------");
 				if(cur == 1) {System.out.println("~~~ Title: " +tempMovie.getTitle()+" ~~~"); }
-				//These methods need to be initialized in Movie.java first
-				//			else if(cur == 2) {System.out.println("~~~ Genre: " +tempMovie.getGenre()+" ~~~"); }
-				//			else if(cur == 3) {System.out.println("~~~ Release Date: "+tempMovie.getReleaseDate()+" ~~~"); }
-				//			else if(cur == 4) {System.out.println("~~~ Actors: "+tempMovie.getActors()+" ~~~"); }
-				//			else if(cur == 5) {System.out.println("~~~ Run Time: "+tempMovie.getRunTime()+" ~~~"); }
-				//			else if(cur == 6) {System.out.println("~~~ Director: " +tempMovie.getDirector()+" ~~~"); }
-				//			else if(cur == 7) {System.out.println("~~~ Rating: " +tempMovie.getRating()+" ~~~"); }		
+				else if(cur == 2) {System.out.println("~~~ Genre: " +tempMovie.getGenre()+" ~~~"); }
+				else if(cur == 3) {System.out.println("~~~ Release Date: "+tempMovie.getReleaseDate()+" ~~~"); }
+				else if(cur == 4) {System.out.println("~~~ Actors: "+tempMovie.getActors()+" ~~~"); }
+				else if(cur == 5) {System.out.println("~~~ Run Time: "+tempMovie.getRunTime()+" ~~~"); }
+				else if(cur == 6) {System.out.println("~~~ Director: " +tempMovie.getDirector()+" ~~~"); }
+				else if(cur == 7) {System.out.println("~~~ Rating: " +tempMovie.getRatings()+" ~~~"); }		
 				else if(cur != 8) {System.out.println("Incorrect input");}
 
 				System.out.println("---------------------------------------------------------------------------------------------");
